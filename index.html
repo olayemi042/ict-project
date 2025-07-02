@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/mobileStyles.css" />
+    <link rel="stylesheet" href="styles/themeToggle.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- HERO SECTION -->
+    <div class="hero parallax">
+      <!-- NAVBAR -->
+      <header class="navbar">
+        <div class="logo">
+          <p class="logoText"><a href="#">Toyin!</a></p>
+        </div>
+        <ul class="navlist">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown">
+            <a style="display: flex; gap: 3px" href="#"
+              >Socials
+              <img
+                width="20px"
+                src="assets/icons/dropdown.svg"
+                alt="dropdown icon"
+              />
+            </a>
+            <ul class="dropdown-content">
+              <li class="social-links">
+                <a
+                  class="soc-link"
+                  target="_blank"
+                  href="https://github.com/toyin2022"
+                  ><img
+                    class="social-links-icon"
+                    src="assets/icons/github.svg"
+                    alt="github icon"
+                  />
+                  <span>Github</span>
+                </a>
+              </li>
+              <li class="social-links">
+                <a
+                  class="soc-link"
+                  target="_blank"
+                  href="https://github.com/toyin2022"
+                  ><img
+                    class="social-links-icon"
+                    src="assets/icons/instagram.svg"
+                    alt="Instagram icon"
+                  />
+                  <span>Instagram</span>
+                </a>
+              </li>
+              <li class="social-links">
+                <a
+                  class="soc-link"
+                  target="_blank"
+                  href="https://github.com/toyin2022"
+                  ><img
+                    class="social-links-icon"
+                    src="assets/icons/linkedin.svg"
+                    alt="linkedin icon"
+                  />
+                  <span>Linkedin</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <button id="theme-toggle" data-tooltip="Toggle Theme">
+          <img id="theme-icon" src="/assets/icons/moon.svg" alt="Theme Icon" />
+        </button>
+        <div class="hambugger">
+          <img src="assets/icons/menu.svg" width="20px" alt="menu" />
+        </div>
+        <div class="hamburger-menu">
+          <img
+            src="assets/icons/close.svg"
+            width="30px"
+            class="close-menu"
+            alt="close icon"
+          />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="display: flex; gap: 10px">
+              <a href="#"
+                ><img src="assets/icons/github.svg" alt="github" width="30px"
+              /></a>
+              <a href="#"
+                ><img
+                  src="assets/icons/instagram.svg"
+                  alt="github"
+                  width="30px"
+              /></a>
+              <a href="#"
+                ><img src="assets/icons/linkedin.svg" alt="github" width="30px"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div class="hero-container container">
+        <div class="hero-left">
+          <div class="hello">
+            <p>Hello!</p>
+            <img
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              width="16px"
+              class="hello-icon"
+              src="assets/images/icon.png"
+              alt=""
+            />
+          </div>
+          <div class="hero-title">
+            <h1>I'm <span class="my-name"> Toyin Oni,</span></h1>
+            <h1>Software Developer</h1>
+          </div>
+          <div class="hero-desc">
+            To make your personal portfolio. Laptop, tablet and mobile
+            responsive, contact me at 08157978440 and lets get started.
+          </div>
+          <div class="hire" data-aos="fade-right" data-aos-duration="1000">
+            <div class="hire-item hire-overlay">
+              <a
+                class="download-btn"
+                href="path/to/your-cv.pdf"
+                download="Toyin_CV.pdf"
+              >
+                <p>Download CV</p>
+                <img
+                  width="16px"
+                  src="assets/icons/download.svg"
+                  alt="download"
+                />
+              </a>
+            </div>
+            <div class="hire-item">
+              <p>Hire now</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-right">
+          <img src="assets/images/spring.png" alt="" />
+        </div>
+      </div>
+      <div class="scroll-down">
+        <img src="assets/icons/scrolldown.svg" width="20px" alt="" />
+      </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div class="about" id="about">
+      <div class="about-container">
+        <div class="about-left">
+          <div class="hello">
+            <p>About me</p>
+          </div>
+          <div class="about-title">
+            <h1>Software Developer</h1>
+          </div>
+          <div class="about-desc">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Dignissimos voluptates placeat impedit veritatis repellendus amet
+              magnam mollitia. In architecto temporibus perferendis
+            </p>
+          </div>
+          <div class="counter-up">
+            <div class="count-cont">
+              <div class="count-left">
+                <p class="count" data-target="20">20</p>
+              </div>
+              <p>Completed projects</p>
+            </div>
+            <div class="count-cont">
+              <div class="count-left">
+                <p class="count" data-target="15">15+</p>
+              </div>
+              <p>Satisfied Reviews</p>
+            </div>
+          </div>
+          <div
+            class="contact-button"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <a href="#contact">Contact me</a>
+          </div>
+        </div>
+        <div class="about-right">
+          <p class="abt-right-title">My Expertise</p>
+          <div class="what-i-do">
+            <div class="do">
+              <div class="do-overlay"></div>
+              <img
+                data-aos="fade-right"
+                data-aos-duration="500"
+                width="70px"
+                src="assets/images/computer.png"
+                alt=""
+              />
+              <p>Web Design</p>
+            </div>
+            <div class="do">
+              <div class="do-overlay"></div>
+              <img
+                data-aos="fade-down"
+                data-aos-duration="500"
+                width="70px"
+                src="assets/images/app-development.png"
+                alt=""
+              />
+              <p>Web Development</p>
+            </div>
+            <div class="do">
+              <div class="do-overlay"></div>
+              <img
+                data-aos="fade-left"
+                data-aos-duration="500"
+                width="70px"
+                src="assets/images/app.png"
+                alt=""
+              />
+              <p>App Development</p>
+            </div>
+            <div class="do">
+              <div class="do-overlay"></div>
+              <img
+                data-aos="fade-right"
+                data-aos-duration="500"
+                width="70px"
+                src="assets/images/figma.png"
+                alt=""
+              />
+              <p>Figma UI/UX</p>
+            </div>
+            <div class="do">
+              <div class="do-overlay"></div>
+              <img
+                data-aos="fade-up"
+                data-aos-duration="500"
+                width="70px"
+                src="assets/images/graphic-designer.png"
+                alt=""
+              />
+              <p>Graphic Design</p>
+            </div>
+            <div class="do">
+              <div class="do-overlay"></div>
+              <img
+                data-aos="fade-left"
+                data-aos-duration="500"
+                width="70px"
+                src="assets/images/montage.png"
+                alt=""
+              />
+              <p>Video Editing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS SECTION -->
+    <div class="project" id="project">
+      <div class="project-container">
+        <div class="project-top">
+          <div class="proj-top-left">
+            <p class="proj-title">MY PROJECTS</p>
+            <p class="proj-title2">AWESOME WORKS</p>
+          </div>
+          <!-- <div class="proj-top-right">
+            <div class="category active" data-category="All"><p>All</p></div>
+            <div class="category" data-category="Web dev"><p>Web dev</p></div>
+            <div class="category" data-category="App dev"><p>App dev</p></div>
+            <div class="category" data-category="Graphics"><p>Graphics</p></div>
+          </div> -->
+        </div>
+        <div class="project-bottom">
+          <div class="project-cards">
+            <div class="proj-card">
+              <div class="proj-card-img">
+                <img
+                  data-aos="fade-right"
+                  data-aos-duration="500"
+                  src="assets/images/computer.png"
+                  alt=""
+                />
+              </div>
+              <div class="proj-card-info">
+                <h3>Project Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="proj-card-links">
+                  <a href="#"
+                    ><img src="assets/icons/link.svg" alt="" width="20px"
+                  /></a>
+                  <a href="#"
+                    ><img src="assets/icons/github.svg" alt="" width="20px"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="proj-card">
+              <div class="proj-card-img">
+                <img
+                  data-aos="fade-right"
+                  data-aos-duration="500"
+                  src="assets/images/computer.png"
+                  alt=""
+                />
+              </div>
+              <div class="proj-card-info">
+                <h3>Project Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="proj-card-links">
+                  <a href="#"
+                    ><img src="assets/icons/link.svg" alt="" width="20px"
+                  /></a>
+                  <a href="#"
+                    ><img src="assets/icons/github.svg" alt="" width="20px"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="proj-card">
+              <div class="proj-card-img">
+                <img
+                  data-aos="fade-left"
+                  data-aos-duration="500"
+                  src="assets/images/computer.png"
+                  alt=""
+                />
+              </div>
+              <div class="proj-card-info">
+                <h3>Project Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="proj-card-links">
+                  <a href="#"
+                    ><img src="assets/icons/link.svg" alt="" width="20px"
+                  /></a>
+                  <a href="#"
+                    ><img src="assets/icons/github.svg" alt="" width="20px"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div class="contact" id="contact">
+      <div class="contact-container">
+        <div class="contact-header">
+          <h2>Get in Touch</h2>
+          <p>
+            I’d love to hear from you! Fill out the form below or reach me
+            directly via email or phone.
+          </p>
+        </div>
+        <div class="contact-content">
+          <!-- Contact Form -->
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn submit-btn">Send Message</button>
+          </form>
+
+          <!-- Contact Details -->
+          <div class="contact-details">
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:your-email@example.com">your-email@example.com</a>
+            </p>
+            <p>
+              <strong>Phone:</strong>
+              <a href="tel:+1234567890">+1 234 567 890</a>
+            </p>
+            <p><strong>Location:</strong> New York, USA</p>
+            <div class="cont-links">
+              <a
+                class="cont-link"
+                href="https://twitter.com/yourprofile"
+                target="_blank"
+                >Twitter</a
+              >
+              <a
+                class="cont-link"
+                href="https://linkedin.com/in/yourprofile"
+                target="_blank"
+                >LinkedIn</a
+              >
+              <a
+                class="cont-link"
+                href="https://github.com/yourprofile"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER  -->
+
+    <div class="footer" id="footer">
+      <div class="footer-container">
+        <p>All rights reserved</p>
+      </div>
+    </div>
+    <!-- JAVASCRIPT  -->
+    <script src="javascript/script.js"></script>
+    <script src="javascript/themeToggle.js"></script>
+    <!-- ANIMATE ON SCROLL  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
